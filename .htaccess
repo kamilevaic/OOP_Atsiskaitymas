@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /OOPatsiskaitymas/
+RewriteRule ^index\.php＄ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /OOPatsiskaitymas/index.php [L]

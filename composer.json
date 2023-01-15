@@ -1,0 +1,17 @@
+{
+    "name": "kamil/oop",
+    "autoload": {
+        "psr-4": {
+            "Kamil\\Oop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kamilevaic",
+            "email": "kamile.vaic@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^4.3"
+    }
+}
